@@ -1,26 +1,90 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[yes] Two Element Selectors
+[Yes] Two ID Selectors
+[ yes ] Two Class Selectors
+[yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Background Image
 [ no ] Feature 2 - Include Border Radius CSS Property
-[ no ] Feature 3 - Include Horizontal Line
+[ yes ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
 [ no ] Feature 5 - Include Border CSS Property
 -->
-    
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-    </head>
-    <body>
 
-        
-    </body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ballet</title>
+    <font size="+9"></font>
+    <style>
+      h1 {
+        color: rgb(255, 236, 246);
+      }
+      body {
+        background-color: rgb(255, 166, 237);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      html {
+        height: 100%;
+      }
+      p {
+        color: rbg(255, 169, 244);
+      }
+      #ballet {
+        color: rgb(253, 218, 248);
+      }
+      #Pointe {
+        color: rgb(253, 218, 248);
+      }
+      .Pas {
+        color: rgb(253, 218, 248);
+      }
+      .deux{
+        color: rgb(253, 218, 248);
+      }
+    </style>
+  </head>
+  <body>
+    <h1><em> Ballet 🩰 </em></h1>
+    <hr size="20" color="#ffecf6" />
+    <strong>
+      <p id="ballet">
+        Ballet is a highly technical and grateful dance form that combines fluid
+        movements with a very strict discipline. Emphasizing turnout precise
+        footwork, and controlled jumps.
+      </p>
+    </strong>
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmI9KVeJRwL8N-C1DOwWMwTVplTNmJH1g2nw&s"
+    />
+
+    <strong>
+      <p id="Pointe">
+        As Ballerinas we wear pointe shoes. Pointe shoes allow dancers to
+        perform on the tips of our toes creating the illusion of effortless,
+        weughtless movement.
+      </p></strong
+    >
+
+    <img
+      src="data:image/jpeg;base64,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"
+    />
+
+    <strong>
+      <p class="Pas">
+        In Ballet many of the piece's are pas de deux known as a ballet duet,
+        usually between male and a female dancer. In a Pas de deux you can see
+        lifts individual solos and afast finish known as a coda.
+      </p>
+    </strong>
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQNGeB7OQoOQ4fNfUrIJBN7J_eOifcHjc-NA&s"
+    />
+  </body>
 </html>
